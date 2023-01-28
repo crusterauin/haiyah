@@ -1,320 +1,329 @@
-*, html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-    z-index: 1;
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  z-index: 1;
 }
 
 .kontainer {
-    display: flex;
-    width: 100%;
-    height: 8.796296296296296%;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-    z-index: 3 !important;
+  display: flex;
+  width: 100%;
+  height: 8.796296296296296%;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3 !important;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    padding: 15px;
-    width: 100%;
-    height: 80px;
-    background-color: #00237A;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 80px;
+  background-color: #00237a;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .brand {
-    display: flex;
-    flex-direction: row;
-    font-size: 2.5em;
-    padding: 15px;
-    text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5em;
+  padding: 15px;
+  text-transform: capitalize;
 }
 
 .brando {
-    text-decoration: none;
-    color: #F04569;
+  text-decoration: none;
+  color: #f04569;
 }
 .pertama {
-    color: #F04569;
-    font-weight: 700;
+  color: #f04569;
+  font-weight: 700;
 }
 
 .kedua {
-    color: #F04569;
-    font-weight: 700;
+  color: #f04569;
+  font-weight: 700;
 }
 
 .navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navigation>li {
-    list-style: none;
-    padding: 15px;
+.navigation > li {
+  list-style: none;
+  padding: 15px;
 }
 
-.navigation>li>a {
-    color: #F04569;
-    font-size: 20px;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all .3s ease-in-out;
+.navigation > li > a {
+  color: #f04569;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
 }
 
-.navigation>li>a>img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    transition: all .3s ease-in-out;
+.navigation > li > a > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
-.navigation>li>a>img:hover {
-    width: 65px;
-    height: 65px;
-    border-radius: 65px;
-    transition: all .3s ease-in-out;
+.navigation > li > a > img:hover {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  transition: all 0.3s ease-in-out;
 }
 
-.navigation>li>a:hover {
-    color: whitesmoke !important;
-    transition: all .3s ease-in-out;
+.navigation > li > a:hover {
+  color: whitesmoke !important;
+  transition: all 0.3s ease-in-out;
 }
 
 .active {
-    background-color: #F04569;
-    color: #00237A !important;
-    padding: 15px;
-    border-radius: 5px;
+  background-color: #f04569;
+  color: #00237a !important;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .faturkeren {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    top: 85px;
-    row-gap: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  top: 85px;
+  row-gap: 25px;
 }
 
 .gambaros {
-    border-radius: 5px;
-    width: 450px;
-    height: 450px;
-    position: relative;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
-    transition: all .3s ease-in-out;
+  border-radius: 5px;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
 .gambaros:hover {
-    border-radius: 10px;
-    width: 475px;
-    height: 475px;
-    transition: all .3s ease-in-out;
+  border-radius: 10px;
+  width: 475px;
+  height: 475px;
+  transition: all 0.3s ease-in-out;
 }
 
 .tulisanfatur {
-    position: relative;
-    font-style: normal;
+  position: relative;
+  font-style: normal;
 }
 
 .a {
-    font-weight: 700;
-    font-size: 96px;
-    color:#00237A;
-    text-align: center;
+  font-weight: 700;
+  font-size: 96px;
+  color: #00237a;
+  text-align: center;
 }
 
 .konstatinopel {
-    color:#F04569 !important;
+  color: #f04569 !important;
 }
 
 .b {
-    font-size: 25px;
-    color:#00237A;
-    text-align: center;
+  font-size: 25px;
+  color: #00237a;
+  text-align: center;
 }
 
-.b>span {
-    font-weight: 700;
+.b > span {
+  font-weight: 700;
 }
 
 .tekskarya {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 200px;
-    font-weight: 700;
-    font-size: 50px;
-    color: #00237A;
-    width: 100%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #00237a;
+  width: 100%;
+  text-align: center;
 }
 
-.tekskarya>p>span {
-    color: #F04569 !important;
+.tekskarya > p > span {
+  color: #f04569 !important;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .microblog {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    top: 280px;
-    width: 100%;
-    row-gap: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 280px;
+  width: 100%;
+  row-gap: 50px;
 }
 
-.eva>a>img, .senpai>a>img, .jjk>a>img, .kaguya>a>img {
-    width: 275px;
-    height: auto;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
-    transition: all .3s ease-in-out;
+.eva > a > img,
+.senpai > a > img,
+.jjk > a > img,
+.kaguya > a > img {
+  width: 275px;
+  height: auto;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
-.eva>a>img:hover, .senpai>a>img:hover, .jjk>a>img:hover, .kaguya>a>img:hover {
-    width: 300px;
-    height: auto;
-    transition: all .3s ease-in-out;
+.eva > a > img:hover,
+.senpai > a > img:hover,
+.jjk > a > img:hover,
+.kaguya > a > img:hover {
+  width: 300px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
 }
 
 .captiongambar {
-    text-align: center;
-    color:#00237A;
-    font-weight: 700;
-    padding: 10px;
+  text-align: center;
+  color: #00237a;
+  font-weight: 700;
+  padding: 10px;
 }
 
-.captiongambar>span {
-    color:#F04569 !important;
-    font-weight: 400;
+.captiongambar > span {
+  color: #f04569 !important;
+  font-weight: 400;
 }
 
 .bantuandesain {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    top: 375px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 350px;
 }
 
 .butuh {
-    font-weight: 700;
-    font-size: 75px;
-    color: #00237A;
-    text-align: center;
+  font-weight: 700;
+  font-size: 75px;
+  color: #00237a;
+  text-align: center;
 }
 
 .form {
-    font-weight: 500;
-    font-size: 20px;
-    color:#F04569;
-    text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #f04569;
+  text-align: center;
 }
 
 .engres {
-    font-style: italic;
+  font-style: italic;
 }
 
 .formulir {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 375px;
 }
 
-.formulir>form>.fnama {
-    margin: 5px;
-    width: 500px;
-    height: 15px;
-    background-color: #00237A;
-    color: white;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+.formulir > form > .fnama {
+  margin: 5px;
+  width: 500px;
+  height: 15px;
+  background-color: #00237a;
+  color: white;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.formulir>form>.falamat {
-    margin: 5px;
-    width: 500px;
-    height: 15px;
-    background-color: #00237A;
-    color: white;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+.formulir > form > .falamat {
+  margin: 5px;
+  width: 500px;
+  height: 15px;
+  background-color: #00237a;
+  color: white;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
-.formulir>form>.fnowa {
-    margin: 5px;
-    width: 500px;
-    height: 15px;
-    background-color: #00237A;
-    color: white;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+.formulir > form > .fnowa {
+  margin: 5px;
+  width: 500px;
+  height: 15px;
+  background-color: #00237a;
+  color: white;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
-.formulir>form>.fdesc {
-    margin: 5px;
-    width: 500px;
-    height: 250px;
-    background-color: #00237A;
-    color: white;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
-}
-
-.formulir>form>.fsubmit {
-    background-color: #00237A;
-    color: #F04569;
-    font-style: italic;
-    text-align: center;
-    margin: 5px;
-    margin-top: 10px;
-    width: 500px;
-    height: 30px;
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+.formulir > form > .fdesc {
+  margin: 5px;
+  width: 500px;
+  height: 250px;
+  background-color: #00237a;
+  color: white;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.formulir>form>.fnama::placeholder {
-    color: #F04569;
-    font-style: italic;
+.formulir > form > .fsubmit {
+  background-color: #00237a;
+  color: #f04569;
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+  margin-top: 10px;
+  width: 500px;
+  height: 30px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.formulir>form>.falamat::placeholder {
-    color: #F04569;
-    font-style: italic;
+.formulir > form > .fnama::placeholder {
+  color: #f04569;
+  font-style: italic;
 }
 
-.formulir>form>.fnowa::placeholder {
-    color: #F04569;
-    font-style: italic;
+.formulir > form > .falamat::placeholder {
+  color: #f04569;
+  font-style: italic;
 }
-.formulir>form>.fdesc::placeholder {
-    color: #F04569;
-    font-style: italic;
-    text-align: left;
+
+.formulir > form > .fnowa::placeholder {
+  color: #f04569;
+  font-style: italic;
+}
+
+.formulir > form > .fdesc::placeholder {
+  color: #f04569;
+  font-style: italic;
+  text-align: left;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    position: relative;
-    top: 450px;
-    font-weight: 400;
-    background-color: #00237A;
-    color: #F04569;
-    letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  top: 450px;
+  font-weight: 400;
+  background-color: #00237a;
+  color: #f04569;
+  letter-spacing: 0.1em;
 }
