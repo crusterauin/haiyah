@@ -9,11 +9,13 @@ Instalasi animate.css
   - Menggunakan yarn
     https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
     $ yarn add animate.css
+    
 2. Import ke file html
-  <!--<head>
+  <head>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />-->
+    />
   </head>
+  
 3. Untuk penggunaan, cek https://animate.style/
