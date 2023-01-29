@@ -14,4 +14,4 @@ Instalasi animate.css
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
-3. Untuk penggunaan, cek https://animate.style/
+  3. Untuk penggunaan, cek https://animate.style/
