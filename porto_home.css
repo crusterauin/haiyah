@@ -247,6 +247,14 @@ a:link {
   top: 375px;
 }
 
+input {
+  caret-color: #f04569;
+}
+
+textarea {
+  caret-color: #f04569;
+}
+
 .formulir > form > .fnama {
   margin: 5px;
   width: 500px;
