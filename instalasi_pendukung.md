@@ -11,11 +11,13 @@ Instalasi animate.css
     $ yarn add animate.css
     
 2. Linkkan dengan file html
+  <!--
   <head>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
+-->
   
 3. Untuk penggunaan, cek https://animate.style/
