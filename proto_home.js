@@ -15,6 +15,6 @@ if (sapaDuluGaSi.includes("Fatur") && konfirmasi === true) {
 
 function berhasil() {
   var sukses =
-    "Data gagal terkirim karena Fatur belum belajar back end akwokaowkawokwo!";
+    "Data gagal terkirim karena Fatur belum belajar backend akwokaowkawokwo!";
   alert(sukses);
 }
