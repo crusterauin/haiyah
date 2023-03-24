@@ -1,5 +1,7 @@
 # Instalasi Pendukung
 
+!!!Ubah ke tampilan source blob dulu!!!
+
 Untuk pengalaman terbaik melihat projek web Fatur, alangkah baiknya install file-flie berikut ini:
 
 Instalasi animate.css
